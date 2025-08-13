@@ -1,0 +1,9 @@
+{
+  "name": "hoseinmos/used-laptop-pricer",
+  "description": "WordPress plugin to price used laptops (Persian)",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.29"
+  }
+}
