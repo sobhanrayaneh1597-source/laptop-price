@@ -1,0 +1,15 @@
+/* RTL, mobile-first styles */
+.lpcfa-wrapper { font-family: inherit; max-width: 760px; margin: 16px auto; padding: 16px; border: 1px solid #eee; border-radius: 12px; background: #fff; box-shadow: 0 1px 6px rgba(0,0,0,0.04); }
+.lpcfa-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+.lpcfa-row label { font-weight: 600; }
+.lpcfa-row select, .lpcfa-row button { height: 40px; border: 1px solid #ccc; border-radius: 8px; padding: 0 10px; font-size: 14px; }
+.lpcfa-btn { background: #2271b1; color: #fff; border: none; cursor: pointer; }
+.lpcfa-btn:hover { background: #135e96; }
+.lpcfa-result { margin-top: 16px; padding: 12px; border: 1px dashed #ddd; border-radius: 8px; background: #fafafa; }
+.lpcfa-price, .lpcfa-range { margin: 8px 0; font-size: 16px; }
+.lpcfa-price .label, .lpcfa-range .label { font-weight: 600; margin-left: 6px; }
+@media (min-width: 600px) {
+  .lpcfa-row { flex-direction: row; align-items: center; }
+  .lpcfa-row label { width: 160px; }
+  .lpcfa-row select { flex: 1; }
+}
